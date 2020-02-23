@@ -1,8 +1,10 @@
 {
   "name": "docu-2-main",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "./docu2main/",
   "private": true,
   "scripts": {
+    "update": "git subrepo pull --all && git subrepo clean --ALL --force",
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",

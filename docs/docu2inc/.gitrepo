@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/OleksiyRudenko/docu2inc.git
+	branch = master
+	commit = 8bc0fcae8aea650d0cd37b0037e656885604d659
+	parent = e98a755a4d80f3916875d13c09697fc42cb042be
+	cmdver = 0.3.1
