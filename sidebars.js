@@ -7,7 +7,7 @@
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ['intro', 'doc1', 'doc2', 'doc3'],
+    Docusaurus: ['intro', 'import-static', 'import-generated', 'doc1', 'doc2', 'doc3'],
     'Imported content': ['docu2inc/intro'],
     Features: ['mdx'],
   },
