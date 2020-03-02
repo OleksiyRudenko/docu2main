@@ -1,7 +1,7 @@
 ---
 id: intro
 title: Intro to importing docs from external projects
-sidebar_label: Importing docs from external resources
+sidebar_label: Importing docs from external projects
 ---
 
 ## The problem
