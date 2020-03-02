@@ -4,6 +4,8 @@ title: Intro to importing docs from external projects
 sidebar_label: Importing docs from external projects
 ---
 
+v.0.0.2
+
 ## The problem
 
 You may want to have documentation from multiple projects on a single
