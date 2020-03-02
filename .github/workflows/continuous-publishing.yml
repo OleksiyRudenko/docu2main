@@ -53,5 +53,5 @@ jobs:
           git config --global user.password ${{ secrets.GITHUB_TOKEN }}
       - name: Push content to gh-pages
         env:
-          GIT_USER: "action"
+          GIT_USER: ${{ secrets.GITHUB_TOKEN }}
         run: yarn run deploy
