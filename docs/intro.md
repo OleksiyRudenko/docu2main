@@ -36,6 +36,8 @@ Change log:
  * `README.md`: change instructions reflecting changed project setup
  * `package.json`: add `update` script
  * `package.json`: change `build` and `deploy` scripts
+ * add `.github/workflows/continuous-publishing.yml` that triggers build and
+   deploy upon push to remote `master`
 
 The remaining docs come as they are from official Docusaurus 2 classic template.
 
