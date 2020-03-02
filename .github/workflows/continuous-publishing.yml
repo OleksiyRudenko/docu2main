@@ -52,4 +52,6 @@ jobs:
           git config --local user.name "GitHub Action"
           git config --local user.password ${{ secrets.GITHUB_TOKEN }}
       - name: Push content to gh-pages
+        env:
+          GIT_USER: "action@github.com"
         run: yarn run deploy
