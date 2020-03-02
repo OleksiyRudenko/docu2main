@@ -15,7 +15,7 @@ and copy the changes to the shared documentation site.
 Not really a DRY solution.
 
 This customized Docusaurus 2 set up helps to solve the problem
-in a more consistent way.
+in a more consistent way. Also employing CI.
 
 ## How this site setup is different from official?
 
