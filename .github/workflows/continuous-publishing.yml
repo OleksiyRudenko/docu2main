@@ -48,9 +48,9 @@ jobs:
         run: yarn run build
       - name: Setup git creds
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git config --local user.password ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git config --global user.password ${{ secrets.GITHUB_TOKEN }}
       - name: Push content to gh-pages
         env:
           GIT_USER: "action"
