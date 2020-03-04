@@ -37,9 +37,6 @@ jobs:
         run: |
           git clone https://github.com/ingydotnet/git-subrepo ~/git-subrepo
           source ~/git-subrepo/.rc
-      - name: Build content
-        shell: bash
-        run: yarn run build
       - name: Setup git creds
         run: |
           git config --global user.email "action@github.com"
@@ -47,6 +44,4 @@ jobs:
           git config --global user.password ${{ secrets.GITHUB_TOKEN }}
           echo "::set-env name=GIT_USER::${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}"
       - name: Push content to gh-pages
-        # env:
-          # GIT_USER: "${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}"
         run: yarn run deploy
