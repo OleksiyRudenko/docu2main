@@ -4,7 +4,7 @@ title: Intro to importing docs from external projects
 sidebar_label: Importing docs from external projects
 ---
 
-v.0.0.7
+v.0.0.8
 
 ## The problem
 
