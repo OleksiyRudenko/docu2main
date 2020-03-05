@@ -22,7 +22,6 @@ jobs:
           path: './'
       - name: Detect yarn cache location
         id: yarn-cache
-        shell: bash
         run: echo "::set-output name=dir::$(yarn cache dir)"
       - name: Set up workflow caching for yarn cache
         uses: actions/cache@v1
